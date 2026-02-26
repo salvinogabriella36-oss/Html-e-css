@@ -1,0 +1,70 @@
+/* CSS RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: tahoma;
+}
+
+
+#fundo{
+    position: relative;
+    width: 800px;
+    height: 750px;
+    background-color: aqua;
+    margin: auto; /*alinha o componente o centro */
+    margin-top: 30px;
+}
+
+
+
+
+#camada1{
+    position: relative;
+    width: 300px;
+    height: 380px;
+    background-color: rgb(211, 229, 11);
+    border: 5px solid #f00;
+    text-align: center;
+    padding: 10px; /* espaço para dentro da área **/
+    box-sizing: border-box;
+    float: left; /** Encaixa componente a direita  **/
+}
+
+#camada2{
+    position: relative;
+    width: 300px;
+    height: 380px;
+    background-color: rgb(26, 148, 9);
+    border: 5px solid rgb(3, 70, 16);
+    text-align: center;
+    box-sizing: ;
+    padding: 10px; /* espaço para dentro da área **/
+    float: left;
+}
+
+#camada3{
+    position: relative;
+    width: 300px;
+    height: 380px;
+    background-color: rgb(32, 11, 151);
+    border: 5px solid rgb(64, 109, 187);
+    text-align: center;
+    padding: 10px; /* espaço para dentro da área **/
+    box-sizing: border-box;
+    clear: left;
+}
+#camada_absoluta{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    top: 150px;
+    left: 200px;
+    z-index: 2;
+}
